@@ -1,0 +1,206 @@
+
+@extends('public.layout')
+
+
+@section('content')
+
+	<section class="member-sec">
+		<div class="container">
+			<div class="row align-items-center m-row">
+				<div class="col-md-6 m-col order-2 order-md-1">
+					<div class="content">
+						<h4><span>#</span>iamudoobian</h4>
+						<p>Join the Uddobu Club Membership For Adding Members Only Discount to your cart instantly, on every purchase</p>
+						<h2>Your Membership is Just a Click Away</h2>
+						<a class="SignUpButton" href="#">
+							Check membership plans
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 m-col order-md-1">
+					<img src="{{ asset('themes/udoobu-theme/images/member-banner.jpg') }}" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="plan-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h4>Select a plan</h4>
+				</div>
+			</div>
+
+			<div class="row plan-box-sec justify-content-sm-center justify-content-md-start">
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="plan-box">
+						<h5>Silver</h5>
+						<span class="circle"><div></div></span>
+						<h3><span class="fa fa-inr"></span>99</h3>
+						<p>Join to enjoy unlimited members only discount benefits for 30 days from the date of joining the club.</p>
+						<a href="#">join now</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="plan-box">
+						<h5>Gold</h5>
+						<span class="circle"><div></div></span>
+						<h3><span class="fa fa-inr"></span>199</h3>
+						<p>Join to enjoy unlimited members only discount benefits for 30 days from the date of joining the club.</p>
+						<a href="#">join now</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<div class="plan-box">
+						<h5>Platinum</h5>
+						<span class="circle"><div></div></span>
+						<h3><span class="fa fa-inr"></span>399</h3>
+						<p>Join to enjoy unlimited members only discount benefits for 30 days from the date of joining the club.</p>
+						<a href="#">join now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="benfits-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h4>Membership Benefits</h4>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-7">
+					<ul class="list-unstyled">
+						<li>UNLIMITED MEMBERS ONLY DISCOUNTS</li>
+						<li>PRIORITY CUSTOMER SUPPORT</li>
+						<li>EARLY EXCESS TO NEW COLLECTION</li>
+						<li>PRIORITY SHIPPING & DELIVERY</li>
+						<li>AND MORE ..........</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="proud-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h4>Meet our proud udoobians</h4>
+				</div>
+			</div>
+
+			
+			
+		</div>
+
+		<div class="container-fluid pr-0 pl-0">
+			<div class="row no-gutters">
+				<div class="col-12">
+					<ul class="list-unstyled">
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-1.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Abhishek</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-2.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Shovik</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-3.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Jasleen</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-4.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Kirti</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-5.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Vivek</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-6.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Dev</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-7.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Bharti</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-8.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Priyanshu</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-9.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Rajnish</h4>
+							</div>
+					
+						</li>
+						<li>
+							<div class="img">
+								<img src="{{ asset('themes/udoobu-theme/images/ud-10.jpg') }}" class="img-fluid">	
+							</div>
+							<div class="text">
+								<h4>Maya</h4>
+							</div>
+					
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-12 pt-5">
+					<a class="SignUpButton" href="#">
+							Go to Udoobians page
+						</a>
+				</div>
+			</div>
+		</div>
+	</section>
+@endsection
